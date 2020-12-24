@@ -14,7 +14,8 @@
     "quotes": "off",
     "eol-last": "off",
     "keyword-spacing": "off",
-    "require-jsdoc": "off"
+    "require-jsdoc": "off",
+    "no-trailing-spaces": "off"
   },
   "extends": ["eslint:recommended", "google"]
 }

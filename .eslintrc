@@ -15,7 +15,8 @@
     "eol-last": "off",
     "keyword-spacing": "off",
     "require-jsdoc": "off",
-    "no-trailing-spaces": "off"
+    "no-trailing-spaces": "off",
+    "space-before-blocks": "off"
   },
   "extends": ["eslint:recommended", "google"]
 }

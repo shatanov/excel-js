@@ -14,7 +14,7 @@ const jsLoaders = () => {
             loader: 'babel-loader',
             options: {
                 presets: ['@babel/preset-env'],
-                plugins: ['@babel/plugin-syntax-class-properties']
+                plugins: ['@babel/plugin-proposal-class-properties']
             }
         }
     ]
@@ -46,7 +46,7 @@ module.exports = {
         port: 3000,
         hot: isDev
     },
-    target: process.env.NODE_ENV === "development" ? "web" : "browserslist",
+    target: process.env.NODE_ENV === 'development' ? 'web' : 'browserslist',
     plugins: [
         new CleanWebpackPlugin(),
         new HTMLWebpackPlugin({

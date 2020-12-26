@@ -16,7 +16,8 @@
     "keyword-spacing": "off",
     "require-jsdoc": "off",
     "no-trailing-spaces": "off",
-    "space-before-blocks": "off"
+    "space-before-blocks": "off",
+    "no-constant-condition": "off"
   },
   "extends": ["eslint:recommended", "google"]
 }

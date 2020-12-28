@@ -17,7 +17,8 @@
     "require-jsdoc": "off",
     "no-trailing-spaces": "off",
     "space-before-blocks": "off",
-    "no-constant-condition": "off"
+    "no-constant-condition": "off",
+    "no-empty": "off"
   },
   "extends": ["eslint:recommended", "google"]
 }
